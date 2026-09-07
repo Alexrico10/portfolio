@@ -19,7 +19,6 @@ const Hero = () => {
             lo mantenga después.
           </p>
         </div>
-        
         <div className={styles.heroRight}>
           <div className={styles.heroFile}>
             <div className={styles.statGroup}>
@@ -41,6 +40,7 @@ const Hero = () => {
           </div>
         </div>{" "}
       </div>
+      <hr></hr>
     </section>
   );
 };
