@@ -44,12 +44,48 @@
       "period": "Sept 2025 — Present",
       "company": "Sinergia FP",
       "location": "Madrid, Spain",
-      "role": "Web Developer",
+      "role": "Web Developer Full Stack",
       "bullets": [
         "End-to-end development and deployment from scratch of the corporate web platform with WordPress and Elementor.",
         "Custom business logic and functionality through custom code in PHP and JavaScript.",
         "Structuring, responsive design and interface optimization with HTML5 and CSS3.",
-        "Integration and synchronization of external management tools, with automated forms in Zoho Forms."
+        "Integration and synchronization of external management tools, with automated forms in Zoho Forms.",
+        "Development of microservices in Catalyst such as payment gateways and notification systems, using Node.js and Express."
+      ]
+    },
+    "job2": {
+      "period": "Apr 2024 — Aug 2024",
+      "company": "Lebowski Agency",
+      "location": "Madrid, Spain",
+      "role": "Web Developer",
+      "bullets": [
+        "Implementation of landing pages in WordPress with Elementor and Divi Builder, optimized for SEO and load speed.",
+        "Responsive interfaces to improve the experience across different devices.",
+        "Visual optimization with custom CSS and SEO best practices."
+      ]
+    },
+    "job3": {
+      "period": "Sep 2022 — May 2023",
+      "company": "Acerca Partners S.L.",
+      "location": "Madrid, Spain",
+      "role": "Full Stack Web Developer",
+      "bullets": [
+        "Corrective and evolutive maintenance of production applications, on both frontend and backend.",
+        "Implementation of new features and resolution of issues reported by support.",
+        "Code refactoring to improve performance, readability and maintainability.",
+        "Documentation of solutions in Jira and version control with Git."
+      ]
+    },
+    "job4": {
+      "period": "Jul 2019 — Sep 2022",
+      "company": "Acerca Partners S.L.",
+      "location": "Madrid, Spain",
+      "role": "Manual QA Tester & IT Support",
+      "bullets": [
+        "Design and execution of test plans with Zephyr: regression testing and issue validation.",
+        "Direct collaboration with development and support teams, documenting results in Jira.",
+        "Handling and resolution of user technical issues, with escalation and follow-up.",
+        "Data queries and corrections in Microsoft SQL Server."
       ]
     }
   }
