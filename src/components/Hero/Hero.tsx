@@ -1,40 +1,42 @@
-import Image from "next/image";
+"use client";
+
 import styles from "./Hero.module.css";
+import { useTranslations } from "use-intl";
+
 
 const Hero = () => {
+  const t = useTranslations("Hero");
+
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
         <div className={styles.heroLeft}>
           <p className={styles.heroEyebrow}>
-            DESARROLLADOR WEB FULL STACK · MADRID
+            {t("eyebrow")}
           </p>
           <h1 className={styles.heroTitle}>
-            Construyo y mantengo aplicaciones web que <span>no se rompen.</span>
+            {t("title")} <span>{t("titleHighlight")}</span>
           </h1>
           <p className={styles.heroSubtitle}>
-            Cinco años entre desarrollo correctivo y evolutivo, QA y soporte:
-            .NET y C# en el backend, React y JavaScript en el frontend. Vengo de
-            arreglar código de otros, así que escribo el mío pensando en quien
-            lo mantenga después.
+            {t("subtitle")}
           </p>
         </div>
         <div className={styles.heroRight}>
           <div className={styles.heroFile}>
             <div className={styles.statGroup}>
-              <span className={styles.heroFileLabel}>Experiencia</span>
-              <strong className={styles.heroFileText}>5+ años</strong>
+              <span className={styles.heroFileLabel}>{t("experienceLabel")}</span>
+              <strong className={styles.heroFileText}>{t("experienceValue")}</strong>
             </div>
 
             <div className={styles.statGroup}>
-              <span className={styles.heroFileLabel}>Enfoque</span>
-              <strong className={styles.heroFileText}>.NET · React</strong>
+              <span className={styles.heroFileLabel}>{t("focusLabel")}</span>
+              <strong className={styles.heroFileText}>{t("focusValue")}</strong>
             </div>
 
             <div className={styles.statGroup}>
-              <span className={styles.heroFileLabel}>Estado</span>
+              <span className={styles.heroFileLabel}>{t("statusLabel")}</span>
               <strong className={styles.heroFileStatus}>
-                Abierto a proyectos
+                {t("statusValue")}
               </strong>
             </div>
           </div>

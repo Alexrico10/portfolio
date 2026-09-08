@@ -1,5 +1,6 @@
 .profile {
   width: 100%;
+  padding: var(--section-padding);
 }
 
 .profileContent {
@@ -7,4 +8,26 @@
   grid-template-columns: 350px 1fr;
   gap: clamp(2rem, 5vw, 5rem);
   align-items: start;
+}
+
+.profileTitle {
+  font-size: clamp(2rem, 5.5vw, 2rem);
+  line-height: 1.05;
+  font-weight: 400;
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+  margin-bottom: 2rem;
+}
+
+.profileContentText {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  gap: 2rem;
+}
+
+.profileText {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--muted);
 }

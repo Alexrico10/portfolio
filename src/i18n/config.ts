@@ -1,5 +1,5 @@
-import en from "@/messages/en.json";
-import es from "@/messages/es.json";
+import en from "@/translations/en.json";
+import es from "@/translations/es.json";
 
 export const locales = ["es", "en"] as const;
 export type Locale = (typeof locales)[number];

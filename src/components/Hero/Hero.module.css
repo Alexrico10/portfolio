@@ -11,8 +11,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end; /* La columna derecha queda abajo alineada */
-  gap: clamp(2rem, 5vw, 5rem); /* Separación fluida entre izquierda y derecha */
+  align-items: flex-end;
+  gap: clamp(2rem, 5vw, 5rem);
 }
 
 .heroEyebrow {
@@ -29,17 +29,16 @@
     2.5rem,
     5.5vw,
     5rem
-  ); /* Escala suavemente según la pantalla */
+  );
   line-height: 1.05;
   font-weight: 400;
   font-family: var(--font-serif);
   letter-spacing: -0.02em;
   color: var(--foreground);
   margin-bottom: 2rem;
-  max-width: 16ch; /* Limita caracteres por línea para que rompa igual que en la imagen */
+  max-width: 16ch;
 }
 
-/* El span para "no se rompen." */
 .heroTitle span {
   font-style: italic;
   color: var(--accent);

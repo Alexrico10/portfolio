@@ -11,7 +11,8 @@
   },
   "Hero": {
     "eyebrow": "DESARROLLADOR WEB FULL STACK · MADRID",
-    "title": "Construyo y mantengo aplicaciones web que <highlight>no se rompen.</highlight>",
+    "title": "Construyo y mantengo aplicaciones web que",
+    "titleHighlight": "no se rompen.",
     "subtitle": "Cinco años entre desarrollo correctivo y evolutivo, QA y soporte: .NET y C# en el backend, React y JavaScript en el frontend. Vengo de arreglar código de otros, así que escribo el mío pensando en quien lo mantenga después.",
     "experienceLabel": "Experiencia",
     "experienceValue": "5+ años",
@@ -22,8 +23,8 @@
   },
   "Profile": {
     "indicator": "01 - PERFIL",
-    "title": "Sobre mí",
-    "subtitle": "Soy un desarrollador web full stack con cinco años de experiencia en",
-    "text": "Soy un desarrollador web full stack con cinco años de experiencia en desarrollo correctivo y evolutivo, QA y soporte. He trabajado con .NET y C# en el backend, y React y JavaScript en el frontend. Mi enfoque se centra en escribir código limpio y mantenible, pensando siempre en la persona que lo mantendrá después."
+    "title": "Empecé resolviendo incidencias y acabé escribiendo el código que las evitaba.",
+    "text1": "Ese recorrido —soporte IT, QA manual, desarrollo full stack— me dio una forma concreta de trabajar: reproducir antes de tocar, documentar lo que se cambia y dejar el código más legible de lo que estaba. Trabajo cómodo en equipos ágiles con Jira y Confluence.",
+    "text2": "Hoy compagino producto propio —plataformas corporativas montadas y desplegadas desde cero— con la parte que más me interesa: profundizar en backend moderno, buenas prácticas y arquitectura. Formación continua: DAW, DAM y un curso de Python en 2025."
   }
 }
