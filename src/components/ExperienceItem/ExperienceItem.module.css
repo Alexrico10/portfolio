@@ -1,0 +1,66 @@
+.experienceItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4rem;
+}
+
+.experienceItemLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experiencePeriod {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.experienceCompany {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.experienceLocation {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.experienceItemRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experienceRole {
+  font-size: 1.8rem;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.experienceBullets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--muted);
+  list-style: none;
+  border-left: 1px solid var(--border);
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.experienceTags{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  color: var(--muted-subtle);
+}
+
+.experienceTag:not(:last-child)::after {
+  content: "·";
+  margin: 0 0.5rem;
+}

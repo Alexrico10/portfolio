@@ -1,5 +1,6 @@
 "use client";
 import styles from './Profile.module.css';
+import Section from '../Section/Section';
 import SectionIndicator from '../SectionIndicator/SectionIndicator';
 import Tag from '../Tag/Tag';
 import { useTranslations } from 'use-intl';
@@ -8,7 +9,7 @@ const Profile = () => {
   const t = useTranslations("Profile");
 
   return (
-    <section className={styles.profile} id="profile">
+    <Section id="profile">
       <div className={styles.profileContent}>
         <div className={styles.profileLeft}>
           <SectionIndicator>{t("indicator")}</SectionIndicator>
@@ -31,7 +32,7 @@ const Profile = () => {
       </div>
 
 
-    </section>
+    </Section>
   );
 };
 

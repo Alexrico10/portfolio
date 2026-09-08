@@ -1,6 +1,7 @@
 "use client";
 
 import styles from "./Hero.module.css";
+import Section from "../Section/Section";
 import { useTranslations } from "use-intl";
 
 
@@ -8,7 +9,7 @@ const Hero = () => {
   const t = useTranslations("Hero");
 
   return (
-    <section className={styles.hero}>
+    <Section className={styles.hero}>
       <div className={styles.heroContent}>
         <div className={styles.heroLeft}>
           <p className={styles.heroEyebrow}>
@@ -42,8 +43,7 @@ const Hero = () => {
           </div>
         </div>{" "}
       </div>
-      <hr></hr>
-    </section>
+    </Section>
   );
 };
 

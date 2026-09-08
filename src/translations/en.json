@@ -2,11 +2,11 @@
   "Navbar": {
     "logo": "Alejandro Rico",
     "links": {
-      "perfil": "profile",
-      "stack": "stack",
-      "experiencia": "experience",
-      "proyectos": "projects",
-      "contacto": "contact"
+      "perfil": "Profile",
+      "stack": "Stack",
+      "experiencia": "Experience",
+      "proyectos": "Projects",
+      "contacto": "Contact"
     }
   },
   "Hero": {
@@ -25,6 +25,32 @@
     "indicator": "01 - PROFILE",
     "title": "I started out fixing incidents and ended up writing the code that prevented them.",
     "text1": "That path —IT support, manual QA, full stack development— gave me a concrete way of working: reproduce before touching anything, document every change, and leave the code more readable than I found it. I'm comfortable working in agile teams with Jira and Confluence.",
-    "text2": "Today I split my time between my own product work —corporate platforms built and deployed from scratch— and the part I enjoy most: going deeper into modern backend, best practices and architecture. Continuous learning: DAW, DAM, and a Python course in 2025."
+    "text2": "Today I split my time between my own product work —corporate platforms built and deployed from scratch— and the part I enjoy most: going deeper into modern backend, best practices and architecture. Continuous learning: DAW, DAM, and a Python course in 2025.",
+    "tag1": "Team Work",
+    "tag2": "Autonomy",
+    "tag3": "Resourceful",
+    "tag4": "Continuous Learning"
+  },
+  "Stack": {
+    "indicator": "02 - STACK",
+    "backendTitle": "Backend",
+    "frontendTitle": "Frontend",
+    "cmsTitle": "CMS & No-code",
+    "toolsTitle": "Tools"
+  },
+  "Experience": {
+    "indicator": "03 - EXPERIENCE",
+    "job1": {
+      "period": "Sept 2025 — Present",
+      "company": "Sinergia FP",
+      "location": "Madrid, Spain",
+      "role": "Web Developer",
+      "bullets": [
+        "End-to-end development and deployment from scratch of the corporate web platform with WordPress and Elementor.",
+        "Custom business logic and functionality through custom code in PHP and JavaScript.",
+        "Structuring, responsive design and interface optimization with HTML5 and CSS3.",
+        "Integration and synchronization of external management tools, with automated forms in Zoho Forms."
+      ]
+    }
   }
 }

@@ -3,6 +3,8 @@
   font-family: var(--font-mono);
   margin-inline: calc(-1 * var(--page-padding));
   padding-inline: var(--page-padding);
+  position: sticky;
+  top: 0;
 }
 
 .nav {
@@ -67,7 +69,9 @@
   cursor: pointer;
   opacity: 0.4;
   filter: grayscale(100%);
-  transition: opacity 0.15s ease, filter 0.15s ease;
+  transition:
+    opacity 0.15s ease,
+    filter 0.15s ease;
 }
 
 .flagButton:hover {

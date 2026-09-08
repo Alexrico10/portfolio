@@ -2,11 +2,11 @@
   "Navbar": {
     "logo": "Alejandro Rico",
     "links": {
-      "perfil": "perfil",
-      "stack": "stack",
-      "experiencia": "experiencia",
-      "proyectos": "proyectos",
-      "contacto": "contacto"
+      "perfil": "Perfil",
+      "stack": "Stack",
+      "experiencia": "Experience",
+      "proyectos": "Projects",
+      "contacto": "Contact"
     }
   },
   "Hero": {
@@ -30,5 +30,63 @@
     "tag2": "Autonomía",
     "tag3": "Resolutivo",
     "tag4": "Aprendizaje Continuo"
+  },
+  "Stack": {
+    "indicator": "02 - STACK",
+    "backendTitle": "Backend",
+    "frontendTitle": "Frontend",
+    "cmsTitle": "CMS & No-code",
+    "toolsTitle": "Herramientas"
+  },
+  "Experience": {
+    "indicator": "03 - EXPERIENCIA",
+    "job1": {
+      "period": "Sept 2025 — Presente",
+      "company": "Sinergia FP",
+      "location": "Madrid, España",
+      "role": "Desarrollador Web",
+      "bullets": [
+        "Desarrollo integral y despliegue desde cero de la plataforma web corporativa con WordPress y Elementor.",
+        "Funcionalidades y lógica de negocio a medida mediante código personalizado en PHP y JavaScript.",
+        "Estructuración, diseño responsivo y optimización de la interfaz con HTML5 y CSS3.",
+        "Integración y sincronización de herramientas externas de gestión, con formularios automatizados en Zoho Forms.",
+        "Desarrollo de microservicios en Catalyst como pasarelas de pago y sistemas de notificación, con Node.js y Express."
+      ]
+    },
+    "job2": {
+      "period": "Abr 2024 — Ago 2024",
+      "company": "Lebowski Agency",
+      "location": "Madrid, España",
+      "role": "Desarrollador Web",
+      "bullets": [
+        "Implementación de landing pages en WordPress con Elementor y Divi Builder, optimizadas para SEO y velocidad de carga.",
+        "Interfaces responsivas para mejorar la experiencia en distintos dispositivos.",
+        "Optimización visual con CSS personalizado y buenas prácticas de SEO."
+      ]
+    },
+    "job3": {
+      "period": "Sep 2022 — Mayo 2023",
+      "company": "Acerca Partners S.L.",
+      "location": "Madrid, España",
+      "role": "Desarrollador Web Full Stack",
+      "bullets": [
+        "Mantenimiento correctivo y evolutivo de aplicaciones en producción, en frontend y backend.",
+        "Implementación de nuevas funcionalidades y resolución de incidencias reportadas por soporte.",
+        "Refactorización de código para mejorar rendimiento, legibilidad y mantenibilidad.",
+        "Documentación de soluciones en Jira y control de versiones con Git."
+      ]
+    },
+    "job4": {
+      "period": "Jul 2019 — Sep 2022",
+      "company": "Acerca Partners S.L.",
+      "location": "Madrid, España",
+      "role": "QA Tester Manual & Soporte IT",
+      "bullets": [
+        "Diseño y ejecución de planes de prueba con Zephyr: regresión y validación de incidencias.",
+        "Colaboración directa con desarrollo y soporte, documentando resultados en Jira.",
+        "Atención y resolución de incidencias técnicas de usuario, con escalado y seguimiento.",
+        "Consultas y correcciones de datos en Microsoft SQL Server."
+      ]
+    }
   }
 }

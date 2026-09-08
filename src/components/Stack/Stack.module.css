@@ -1,0 +1,41 @@
+.stackContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.stackContentText {
+  --stack-gap: clamp(2rem, 8vw, 9.375rem);
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: var(--stack-gap);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.stackGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.stackGroup:not(:first-child) {
+  border-left: 1px solid var(--border);
+  margin-left: calc(var(--stack-gap) / -2);
+  padding-left: calc(var(--stack-gap) / 2);
+}
+
+.stackGroupTitle {
+  font-size: 1rem;
+  color: var(--foreground);
+  font-weight: bold;
+}
+
+.stackText {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
