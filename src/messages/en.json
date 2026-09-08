@@ -1,0 +1,29 @@
+{
+  "Navbar": {
+    "logo": "Alejandro Rico",
+    "links": {
+      "perfil": "profile",
+      "stack": "stack",
+      "experiencia": "experience",
+      "proyectos": "projects",
+      "contacto": "contact"
+    }
+  },
+  "Hero": {
+    "eyebrow": "FULL STACK WEB DEVELOPER · MADRID",
+    "title": "I build and maintain web applications that <highlight>don't break.</highlight>",
+    "subtitle": "Five years between corrective and evolutive development, QA and support: .NET and C# on the backend, React and JavaScript on the frontend. I come from fixing other people's code, so I write mine thinking of whoever maintains it next.",
+    "experienceLabel": "Experience",
+    "experienceValue": "5+ years",
+    "focusLabel": "Focus",
+    "focusValue": ".NET · React",
+    "statusLabel": "Status",
+    "statusValue": "Open to projects"
+  },
+  "Profile": {
+    "indicator": "01 - PROFILE",
+    "title": "About me",
+    "subtitle": "I'm a full stack web developer with five years of experience in",
+    "text": "I'm a full stack web developer with five years of experience in corrective and evolutive development, QA and support. I've worked with .NET and C# on the backend, and React and JavaScript on the frontend. My focus is on writing clean, maintainable code, always thinking of the person who will maintain it afterward."
+  }
+}

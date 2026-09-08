@@ -1,20 +1,50 @@
+"use client";
+
 import styles from "./Navbar.module.css";
 import Link from "next/link";
+import { useTranslations } from "use-intl";
+import { useLocaleSwitcher } from "@/i18n/LocaleProvider";
+import { FlagES, FlagGB } from "./Flags";
 
 const Navbar = () => {
+  const t = useTranslations("Navbar");
+  const { locale, setLocale } = useLocaleSwitcher();
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logo}>
-          Alejandro Rico
+          {t("logo")}
         </Link>
         <ul className={styles.ul}>
-          <li className={styles.li}><Link href="#perfil" className={styles.a}>perfil</Link></li>
-          <li className={styles.li}><Link href="#stack" className={styles.a}>stack</Link></li>
-          <li className={styles.li}><Link href="#experiencia" className={styles.a}>experiencia</Link></li>
-          <li className={styles.li}><Link href="#proyectos" className={styles.a}>proyectos</Link></li>
-          <li className={styles.li}><Link href="#contacto" className={styles.a}>contacto</Link></li>
+          <li className={styles.li}><Link href="#profile" className={styles.a}>{t("links.perfil")}</Link></li>
+          <li className={styles.li}><Link href="#stack" className={styles.a}>{t("links.stack")}</Link></li>
+          <li className={styles.li}><Link href="#experience" className={styles.a}>{t("links.experiencia")}</Link></li>
+          <li className={styles.li}><Link href="#projects" className={styles.a}>{t("links.proyectos")}</Link></li>
+          <li className={styles.li}><Link href="#contact" className={styles.a}>{t("links.contacto")}</Link></li>
         </ul>
+        <div className={styles.langSwitcher}>
+          <button
+            type="button"
+            className={styles.flagButton}
+            aria-label="Español"
+            aria-pressed={locale === "es"}
+            data-active={locale === "es"}
+            onClick={() => setLocale("es")}
+          >
+            <FlagES />
+          </button>
+          <button
+            type="button"
+            className={styles.flagButton}
+            aria-label="English"
+            aria-pressed={locale === "en"}
+            data-active={locale === "en"}
+            onClick={() => setLocale("en")}
+          >
+            <FlagGB />
+          </button>
+        </div>
       </nav>
       <hr></hr>
     </header>
