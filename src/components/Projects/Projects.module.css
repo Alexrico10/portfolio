@@ -5,3 +5,9 @@
   width: 100%;
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    flex-direction: column;
+  }
+}

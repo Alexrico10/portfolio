@@ -123,6 +123,47 @@
     }
   },
   "Education": {
-    "indicator": "05 - FORMACIÓN"
+    "indicator": "05 - FORMACIÓN",
+    "course1": {
+      "name": "Curso de Python — Programación",
+      "location": "Formación Tajamar, Madrid",
+      "date": "2025"
+    },
+    "course2": {
+      "name": "CFGS Desarrollo de Aplicaciones Web",
+      "location": "STUCOM Pelai (LinkiaFP), Madrid",
+      "date": "2024"
+    },
+    "course3": {
+      "name": "CFGS Desarrollo de Aplicaciones Multiplataforma",
+      "location": "FP Teide IV, Madrid",
+      "date": "2022"
+    },
+    "course4": {
+      "name": "CFGM Sistemas Microinformáticos y Redes",
+      "location": "IES Alonso de Avellaneda, Alcalá de Henares",
+      "date": "2020"
+    }
+  },
+  "Contact": {
+    "indicator": "06 - CONTACTO",
+    "title": "¿Un proyecto en mente?",
+    "titleHighlight": "Escríbeme.",
+    "subtitle": "Cuéntame qué necesitas construir o mantener. Respondo en menos de 24 horas.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Qué tienes en mente",
+    "submit": "Enviar mensaje"
+  },
+  "Footer": {
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono",
+    "locationLabel": "Ubicación",
+    "linksLabel": "Enlaces",
+    "locationValue": "Madrid, España",
+    "role": "Desarrollador web full stack"
   }
 }

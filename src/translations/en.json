@@ -121,5 +121,49 @@
         "JavaScript"
       ]
     }
+  },
+  "Education": {
+    "indicator": "05 - EDUCATION",
+    "course1": {
+      "name": "Python Course — Programming",
+      "location": "Tajamar Training, Madrid",
+      "date": "2025"
+    },
+    "course2": {
+      "name": "Higher Vocational Training — Web Application Development",
+      "location": "STUCOM Pelai (LinkiaFP), Madrid",
+      "date": "2024"
+    },
+    "course3": {
+      "name": "Higher Vocational Training — Multiplatform Application Development",
+      "location": "FP Teide IV, Madrid",
+      "date": "2022"
+    },
+    "course4": {
+      "name": "Vocational Training — Microcomputer Systems and Networks",
+      "location": "IES Alonso de Avellaneda, Alcalá de Henares",
+      "date": "2020"
+    }
+  },
+  "Contact": {
+    "indicator": "06 - CONTACT",
+    "title": "Got a project in mind?",
+    "titleHighlight": "Let's talk.",
+    "subtitle": "Tell me what you need to build or maintain. I reply within 24 hours.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "What's on your mind",
+    "submit": "Send message"
+  },
+  "Footer": {
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "linksLabel": "Links",
+    "locationValue": "Madrid, Spain",
+    "role": "Full stack web developer"
   }
 }

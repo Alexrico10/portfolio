@@ -1,0 +1,90 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contactCentered {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 400px;
+}
+
+.contactTitle {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.1;
+  font-weight: 400;
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.contactTitle span {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.contactSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 40ch;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 480px;
+  padding: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formField label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted-subtle);
+}
+
+.formField input,
+.formField textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding-block: 0.5rem;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  outline: none;
+}
+
+.formField input:focus,
+.formField textarea:focus {
+  border-bottom-color: var(--accent);
+}
+
+.formField textarea {
+  resize: vertical;
+  min-height: 80px;
+}

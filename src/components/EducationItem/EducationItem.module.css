@@ -1,0 +1,44 @@
+.educationItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-block: 1.5rem;
+}
+
+.educationItemContainer:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.educationItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.courseName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.courseLocation {
+  font-size: 0.9rem;
+  font-family: var(--font-mono);
+  color: var(--muted);
+}
+
+.courseDate {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .educationItemContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.educationContainer {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+
+@media (max-width: 768px) {
+  .educationContainer {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

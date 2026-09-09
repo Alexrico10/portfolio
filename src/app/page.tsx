@@ -6,6 +6,8 @@ import Divider from "@/components/ui/Divider/Divider";
 import Experience from "@/components/Experience/Experience";
 import Projects from "@/components/Projects/Projects";
 import Education from "@/components/Education/Education";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -24,7 +26,9 @@ export default function Home() {
         <Divider />
         <Education />
         <Divider />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
