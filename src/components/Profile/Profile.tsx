@@ -14,7 +14,6 @@ const Profile = () => {
         <div className={styles.profileLeft}>
           <SectionIndicator>{t("indicator")}</SectionIndicator>
         </div>
-
         <div className={styles.profileRight}>
           <h2 className={styles.profileTitle}>{t("title")}</h2>
           <div className={styles.profileContentText}>
@@ -28,10 +27,7 @@ const Profile = () => {
             <Tag text={t("tag4")} /> {" "}
           </div>
         </div>
-
       </div>
-
-
     </Section>
   );
 };

@@ -4,9 +4,9 @@
     "links": {
       "perfil": "Perfil",
       "stack": "Stack",
-      "experiencia": "Experience",
-      "proyectos": "Projects",
-      "contacto": "Contact"
+      "experiencia": "Experiencia",
+      "proyectos": "Proyectos",
+      "contacto": "Contacto"
     }
   },
   "Hero": {
