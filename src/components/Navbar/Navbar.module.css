@@ -82,3 +82,37 @@
   opacity: 1;
   filter: grayscale(0%);
 }
+
+@media (max-width: 768px) {
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    row-gap: 12px;
+    padding-block: 16px;
+  }
+
+  .logo, .langSwitcher{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ul {
+    grid-column: 1 / -1;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .li {
+    flex-shrink: 0;
+  }
+
+  .a {
+    font-size: 13px;
+  }
+}

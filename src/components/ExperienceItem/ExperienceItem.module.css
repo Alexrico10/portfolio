@@ -64,3 +64,11 @@
   content: "·";
   margin: 0 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .experienceItem {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+}
