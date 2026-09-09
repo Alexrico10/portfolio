@@ -2,11 +2,12 @@
   "Navbar": {
     "logo": "Alejandro Rico",
     "links": {
-      "perfil": "Profile",
+      "profile": "Profile",
       "stack": "Stack",
-      "experiencia": "Experience",
-      "proyectos": "Projects",
-      "contacto": "Contact"
+      "experience": "Experience",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
     }
   },
   "Hero": {
@@ -86,6 +87,38 @@
         "Direct collaboration with development and support teams, documenting results in Jira.",
         "Handling and resolution of user technical issues, with escalation and follow-up.",
         "Data queries and corrections in Microsoft SQL Server."
+      ]
+    }
+  },
+  "Projects": {
+    "indicator": "04 - PROJECTS",
+    "project1": {
+      "title": "Personal Portfolio",
+      "description": "The portfolio you're on right now, built with React, Next and TypeScript. Includes profile, stack, experience and projects sections, translated into multiple languages.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "CSS Modules",
+        "Vercel"
+      ]
+    },
+    "project2": {
+      "title": "Corporate Platform",
+      "description": "End-to-end development of a corporate web platform from scratch, using WordPress and Elementor, with custom functionality in PHP and JavaScript.",
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "PHP",
+        "JavaScript"
+      ]
+    },
+    "project3": {
+      "title": "Mobile Application",
+      "description": "Development of a mobile task management application, using React Native and Firebase.",
+      "tags": [
+        "React Native",
+        "Firebase",
+        "JavaScript"
       ]
     }
   }

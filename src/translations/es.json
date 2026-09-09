@@ -2,11 +2,12 @@
   "Navbar": {
     "logo": "Alejandro Rico",
     "links": {
-      "perfil": "Perfil",
+      "profile": "Perfil",
       "stack": "Stack",
-      "experiencia": "Experiencia",
-      "proyectos": "Proyectos",
-      "contacto": "Contacto"
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "education": "Educación",
+      "contact": "Contacto"
     }
   },
   "Hero": {
@@ -88,5 +89,40 @@
         "Consultas y correcciones de datos en Microsoft SQL Server."
       ]
     }
+  },
+  "Projects": {
+    "indicator": "04 - PROYECTOS",
+    "project1": {
+      "title": "Portfolio Personal",
+      "description": "El portfolio en el que estás, construido con React, Next y TypeScript. Incluye secciones de perfil, stack, experiencia y proyectos, con traducción a varios idiomas.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "CSS Modules",
+        "Vercel"
+      ]
+    },
+    "project2": {
+      "title": "Plataforma Corporativa",
+      "description": "Desarrollo integral de una plataforma web corporativa desde cero, utilizando WordPress y Elementor, con funcionalidades personalizadas en PHP y JavaScript.",
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "PHP",
+        "JavaScript"
+      ]
+    },
+    "project3": {
+      "title": "Aplicación Móvil",
+      "description": "Desarrollo de una aplicación móvil para gestión de tareas, utilizando React Native y Firebase.",
+      "tags": [
+        "React Native",
+        "Firebase",
+        "JavaScript"
+      ]
+    }
+  },
+  "Education": {
+    "indicator": "05 - FORMACIÓN"
   }
 }

@@ -1,0 +1,26 @@
+.projectCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+.projectImage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;   /* ajusta esto: más alto = ratio más cerca de 1/1 o incluso 4/5 */
+  object-fit: contain;
+  border: 1px solid var(--muted)
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+  font-size: 1.2rem;
+}

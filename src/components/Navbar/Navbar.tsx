@@ -17,11 +17,12 @@ const Navbar = () => {
           {t("logo")}
         </Link>
         <ul className={styles.ul}>
-          <li className={styles.li}><Link href="#profile" className={styles.a}>{t("links.perfil")}</Link></li>
+          <li className={styles.li}><Link href="#profile" className={styles.a}>{t("links.profile")}</Link></li>
           <li className={styles.li}><Link href="#stack" className={styles.a}>{t("links.stack")}</Link></li>
-          <li className={styles.li}><Link href="#experience" className={styles.a}>{t("links.experiencia")}</Link></li>
-          <li className={styles.li}><Link href="#projects" className={styles.a}>{t("links.proyectos")}</Link></li>
-          <li className={styles.li}><Link href="#contact" className={styles.a}>{t("links.contacto")}</Link></li>
+          <li className={styles.li}><Link href="#experience" className={styles.a}>{t("links.experience")}</Link></li>
+          <li className={styles.li}><Link href="#projects" className={styles.a}>{t("links.projects")}</Link></li>
+          <li className={styles.li}><Link href="#education" className={styles.a}>{t("links.education")}</Link></li>
+          <li className={styles.li}><Link href="#contact" className={styles.a}>{t("links.contact")}</Link></li>
         </ul>
         <div className={styles.langSwitcher}>
           <button
