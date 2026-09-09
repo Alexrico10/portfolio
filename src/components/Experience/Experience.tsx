@@ -1,9 +1,9 @@
 "use client";
 
-import Divider from "../Divider/Divider";
+import Divider from "../ui/Divider/Divider";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
-import Section from "../Section/Section";
-import SectionIndicator from "../SectionIndicator/SectionIndicator";
+import Section from "../ui/Section/Section";
+import SectionIndicator from "../ui/SectionIndicator/SectionIndicator";
 import { useTranslations } from "use-intl";
 
 const Experience = () => {

@@ -1,9 +1,9 @@
 "use client";
 
 import ProjectCard from "@/components/ProjectCard/ProjectCard";
-import Section from "../Section/Section";
+import Section from "../ui/Section/Section";
 import styles from "./Projects.module.css";
-import SectionIndicator from "../SectionIndicator/SectionIndicator";
+import SectionIndicator from "../ui/SectionIndicator/SectionIndicator";
 import { useTranslations } from 'use-intl';
 
 const Projects = () => {

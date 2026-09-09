@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "./Hero.module.css";
-import Section from "../Section/Section";
+import Section from "../ui/Section/Section";
 import { useTranslations } from "use-intl";
 
 

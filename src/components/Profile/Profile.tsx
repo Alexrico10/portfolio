@@ -1,8 +1,8 @@
 "use client";
 import styles from './Profile.module.css';
-import Section from '../Section/Section';
-import SectionIndicator from '../SectionIndicator/SectionIndicator';
-import Tag from '../Tag/Tag';
+import Section from '../ui/Section/Section';
+import SectionIndicator from '../ui/SectionIndicator/SectionIndicator';
+import Tag from '../ui/Tag/Tag';
 import { useTranslations } from 'use-intl';
 
 const Profile = () => {

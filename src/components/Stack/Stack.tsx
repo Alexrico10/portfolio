@@ -1,8 +1,8 @@
 "use client";
 
 import styles from "./Stack.module.css";
-import Section from "../Section/Section";
-import SectionIndicator from "../SectionIndicator/SectionIndicator";
+import Section from "../ui/Section/Section";
+import SectionIndicator from "../ui/SectionIndicator/SectionIndicator";
 import { useTranslations } from "use-intl";
 
 const Stack = () => {

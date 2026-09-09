@@ -1,7 +1,7 @@
 "use client";
 
-import Section from "../Section/Section";
-import SectionIndicator from "../SectionIndicator/SectionIndicator";
+import Section from "../ui/Section/Section";
+import SectionIndicator from "../ui/SectionIndicator/SectionIndicator";
 import styles from "./Education.module.css";
 import { useTranslations } from "use-intl";
 
