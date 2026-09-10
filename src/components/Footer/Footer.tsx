@@ -20,13 +20,6 @@ const Footer = () => {
         </div>
 
         <div className={styles.footerGroup}>
-          <p className={styles.footerLabel}>{t("phoneLabel")}</p>
-          <a href="tel:+34653215424" className={styles.footerLink}>
-            653 215 424
-          </a>
-        </div>
-
-        <div className={styles.footerGroup}>
           <p className={styles.footerLabel}>{t("locationLabel")}</p>
           <p className={styles.footerValue}>{t("locationValue")}</p>
         </div>

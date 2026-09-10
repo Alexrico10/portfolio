@@ -160,7 +160,6 @@
   },
   "Footer": {
     "emailLabel": "Email",
-    "phoneLabel": "Teléfono",
     "locationLabel": "Ubicación",
     "linksLabel": "Enlaces",
     "locationValue": "Madrid, España",
