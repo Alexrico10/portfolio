@@ -15,7 +15,7 @@ const Footer = () => {
         <div className={styles.footerGroup}>
           <p className={styles.footerLabel}>{t("emailLabel")}</p>
           <a href="mailto:Alexrico_10@hotmail.com" className={styles.footerLink}>
-            Alexrico_10@hotmail.com
+            Alexrico_dev@hotmail.com
           </a>
         </div>
 
@@ -33,10 +33,10 @@ const Footer = () => {
 
         <div className={styles.footerGroup}>
           <p className={styles.footerLabel}>{t("linksLabel")}</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
+          <a href="https://github.com/Alexrico10" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
             GitHub ↗
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
+          <a href="www.linkedin.com/in/alejandro-rico-jiménez-946500193" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
             LinkedIn ↗
           </a>
         </div>

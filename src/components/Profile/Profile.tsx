@@ -7,6 +7,7 @@ import { useTranslations } from 'use-intl';
 
 const Profile = () => {
   const t = useTranslations("Profile");
+  const tags = ["tag1", "tag2", "tag3", "tag4"];
 
   return (
     <Section id="profile">
@@ -21,10 +22,9 @@ const Profile = () => {
             <p className={styles.profileText}>{t("text2")}</p>
           </div>
           <div className={styles.profileTags}>
-            <Tag text={t("tag1")} /> {" "}
-            <Tag text={t("tag2")} /> {" "}
-            <Tag text={t("tag3")} /> {" "}
-            <Tag text={t("tag4")} /> {" "}
+            {tags.map((item) => (
+              <Tag key={item} text={t(item)} />
+            ))}
           </div>
         </div>
       </div>
