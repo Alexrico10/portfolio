@@ -36,7 +36,7 @@ const Footer = () => {
           <a href="https://github.com/Alexrico10" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
             GitHub ↗
           </a>
-          <a href="www.linkedin.com/in/alejandro-rico-jiménez-946500193" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
+          <a href="https://www.linkedin.com/in/alejandro-rico-jim%C3%A9nez-946500193/" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
             LinkedIn ↗
           </a>
         </div>
