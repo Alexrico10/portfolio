@@ -14,7 +14,7 @@ const Footer = () => {
       <div className={styles.footerContent}>
         <div className={styles.footerGroup}>
           <p className={styles.footerLabel}>{t("emailLabel")}</p>
-          <a href="mailto:Alexrico_10@hotmail.com" className={styles.footerLink}>
+          <a href="mailto:Alexrico_dev@hotmail.com" className={styles.footerLink}>
             Alexrico_dev@hotmail.com
           </a>
         </div>
