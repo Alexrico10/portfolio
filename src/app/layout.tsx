@@ -3,7 +3,7 @@ import "./globals.css";
 import { LocaleProvider } from "@/i18n/LocaleProvider";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Alex Rico",
   description: "",
 };
 
